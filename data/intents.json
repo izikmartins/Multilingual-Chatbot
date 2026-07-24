@@ -1,0 +1,275 @@
+{"intents": [
+        {"tag": "enquiry",
+         "patterns": ["What do you do?","what can you do?", "how can you help me?", "I don't know what i want", "please help me out", "how can you be of help?", "how can you be of service to me?", "how can you serve me?", "what can you do to help me?", "how can you be of assistance to me?", "how can you assist me?", "what can you help me with?", "I need help?", "how can you be helpful?", "can you be of aid?", "how can you be of support?", "can you support me"],
+         "responses": ["I recommend movies", "I can recommend a movie for you", "I can predict ratings that you may likely give for movies I recommend to you", "I can suggest movies that you will like", "I can suggest movies for you"],
+         "context": [""]
+        },
+        {"tag": "beere ibeere",
+         "patterns": ["Mo niloo iranlowo","Bawo ni o se le ranmi lowo","mo nilo iranlowo","Bawo lo se le se'ranwo fun mi", "kini o le se?", "bawo ni o se le ran mi lowo?", "Emi ko mo ohun ti mo fe", "jowo ran mi lowo", "bawo ni o se le se iranlowo?", "bawo ni o se le se iranse fun mi?", "bawo ni o se le sin mi?", "Kini o le se lati ran mi lowo?", "bawo ni o se le se iranlowo fun mi?", "Mo fe iranlowo?", "se o le se iranlowo?", "se o le se atileyin fun mi"],
+         "responses": ["Mo seduro awon fiimu","Mo le seduro fiimu kan fun o", "Mo le se asotele awon idiyele ti o le se fun awon fiimu ti Mo seduro?", "Mo le daba awon fiimu fun o"],
+         "context": [""]
+        },
+        {"tag": "Ajuju",
+         "patterns": ["gini ka i ga-eme", "kedu ka i ga-esi nyere m aka", "amaghim ihe m choro", "amaghim ihe m choro", "kedu ihe i ga-emere m", "achoro m enyemaka na fim"],
+         "responses": ["enwere m ike inye gi fim ga-amasi gi", "m ga-enye gi ihe nkiri ga-amasi gi"],
+         "context": [""]
+        },
+    
+    
+         {"tag": "I have a question",
+         "patterns": ["I have a question", "let me ask you a question"],
+         "responses": ["Sure, how may i help you"],
+         "context": [""]
+        },
+         {"tag": "Enwere m ajuju",
+         "patterns": ["Enwere m ajuju", "enwere m ike iju gi ihe", "ka m juo gi ajuju"],
+         "responses": ["n'ezie, kedu ka m ga-esi nyere gi aka"],
+         "context": [""]
+        },
+         {"tag": "Mo ni ibere kan",
+         "patterns": ["Mo ni ibeere kan","Mo ni ibere kan", "je ki n beere ibeere kan fun o", "Mo ni ibeere"],
+         "responses": ["bawo ni mo se le ran o lowo"],
+         "context": [""]
+        },
+    
+    
+        {"tag": "greeting-one",
+         "patterns": ["How are you?", "What's up?", "how do you do?", "Are you good?", "Are you alright?", "How is everything?", "Sup?", "How are you doing?", "Are you well?",  "Howdy"],
+         "responses": ["I am fine", "I am doing great", "I am alright", "I am awesome", "I am doing well", "I am ok", "I am doing pretty good"],
+         "context": [""]
+        },
+        {"tag": "ikini-okan",
+         "patterns": ["Kinlo shele","Bawoni nkan","bawo", "bawoni", "Bawo ni o se wa?", "Kilode?","So wapa?", "Bawo ni o nse si?", "Se o'n se dada", "Se o daa?", "Bawo ni gbogbo nkan?", "Bawo ni o se n se?", "Se ara re wa bi?",  "Bawo?", "Bawo ni, kilon sele"],
+         "responses": ["mo wa daadaa", "Mo nse nla", "Mo wa daada", "Mo n se daradara", "O dara", "Mo n se daradara"],
+         "context": [""]
+        },
+        {"tag": "Ekele-otu",
+         "patterns": ["kedu", "Kedu ka i mere?", "Kedu nke na-eme?", "i di mma?", "kedu ka ihe niile di", "i dikwa mma"],
+         "responses": ["adi m mma", "Ana m eme nke oma"],
+         "context": [""]
+        },
+    
+    
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day", "What's up", "Hi"],
+         "responses": ["Hello,Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "ikini",
+         "patterns": ["Nje enyan kankan wa nibi","Se enikeni wa nibe?"],
+         "responses": ["Talo wa nibe","O dara lati ri o leekansi", "bawo ni mo se le se iranlowo?", "Se eni kanan wa nibe yen"],
+         "context": [""]
+        },
+        {"tag": "Ekele",
+         "patterns": ["ndewo", "o nwere onye ebe ahu?","Nnoo", "ehihie oma", "mgbede oma", "ututu oma"],
+         "responses": ["Ndewo, o di mma ihu gi ozo", "Ndewo ebe ahu", "Ndewo ebe ahu, kedu ka m ga-esi nyere aka?"],
+         "context": [""]
+        },
+    
+    
+        {"tag": "goodbye",
+         "patterns": ["farewell", "Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time", "catch you later", "chat you later", "talk to you later", "Till we meet again", "I am going offline", "I am leaving", "Take care", "See you!", "Have a nice day"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Take care"],
+         "context": [""]
+        },
+        {"tag": "O dabo",
+         "patterns": ["Atu ma rira","Odabo","A tun ma rira","O dabo", "Ma a ri e laipe", "O dara lati ba o soro, o dabo", "Titi di igba miiran", "ma ri laipe", "Mo n lo offline",  "Mo n lo", "Titi ao tun pade", "Eni a san e o", "Ire o, a de ma rira, o da bo"  ],
+         "responses": ["Eni a san e o", "Pada wa"],
+         "context": [""]
+        },
+        {"tag": "Ka o di",
+         "patterns": ["daalu", "ijeoma", "Ka o di", "emechaa ka akpaa", "ka chifoo", "Ana m aga offline", "ana m apu", "ledo onwe gi anya", "Aga m ahu gi ma emechaa!", "ruo mgbe anyi ga hu ozo"],
+         "responses": ["Nwee omaricha ubochi", "Daalu! Loghachite ozo ngwa ngwa", "Ledo onwe gi"],
+         "context": [""]
+        },
+    
+        {"tag": "thanks",
+         "patterns": ["God bless you","Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "I appreciate", "I really appreciate", "I am grateful","Thanks for assisting", "Thanks for everything", "Thanks for the help", "Thanks for being of assistance", "I really much appreciate", "I can't thank you enough"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "God bless you", "You are welcome", "No problem", "No worries", "Don't mention", "Its the least i could do", "It is alright", "Can't wait to see you again"],
+         "context": [""]
+        },
+        {"tag": "o seun",
+         "patterns": ["Oshey gidi gan","Ose","o ranmilowo pupo","Ose to ranmilowo","Ese","Eseun","O rani lowo","Eseun ti e ran mi lowo", "o seun", "e dupe", "Iyen se iranlowo", "Oniyi, o seun", "O seun fun iranlowo mi" , "Mo dupe", "O seun fun iranlowo"],
+         "responses": ["inu mi dun lati ran", "Olorun bukun fun o", "Kosi wahala", "O dara"],
+         "context": [""]
+        },
+        {"tag": "daalu",
+         "patterns": ["daalu", "daalu maka inyere m aka", "Di egwu, daalu", "Enwere m ekele", "enwere m ekele n'ezie", "Daalu maka inye aka", "Daalu maka ihe niile", "Enwere m ekele nke ukwuu", "Enweghi m ike ikele gi nke oma"],
+         "responses": ["enwere m obi uto inye aka!", "obi di m uto inyere gi aka", "Chukwu gozie gi", "A na m asi gi nnoo", "Nsogbu adighi", "Enweghi nchekasi", "biko, Ekwukwala", "O bu ntakiri ihe m nwere ike ime", "O di mma", "Enweghi m ike ichere ihu gi ozo"],
+         "context": [""]
+        },
+    
+    
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Excuse me?", "Pardon me?", "I am afriad i don't understand?", "could you say that again?", "I do not understand that", "Can you repeat that again?"],
+         "context": [""]
+        },
+        {"tag": "kosi idahun",
+         "patterns": [],
+         "responses": ["Ma binu, Emi ko le loye re", "Ma binu, Emi ko loye re", "Jowo fun mi ni alaye die sii", "Se o fe fiimu kan", "Oro yen ko ye mi", "Se o le tun iyen leekansi"],
+         "context": [""]
+        },
+        {"tag": "enweghi aziza",
+         "patterns": [],
+         "responses": ["Ndo, enweghi m ike ighota gi", "Biko nye m ozi ndi ozo", "Aghotaghi m gi", "Gbaghara m?", "i nwere ike ikwu nke ahu ozo?", "Aghotaghi m nke ahu"],
+         "context": [""]
+        },
+    
+    
+        {"tag": "recommend",
+         "patterns": ["I am bored","Predict","Suggest","Find me a movie", "can you recommend a movie please", "i need to watch a movie", "recommend movie", "ok", "how", "yes"],
+         "responses": ["Type in your user I.D. or Tell me a movie you have watched, and I will recommend movies", "what is the name of the movie you like?, I will recommend movies similar movies to it or type your user I.D." ],
+         "context":[""]
+        },
+        {"tag": "se iseduro",
+         "patterns": ["Bami wa ere kan","Mo fe wo ere","","Bami wa fiimu","Shey o le so fiimu kan fun mi","no nilo lati wo fiimu kan","Ejo se e le se apejuwe ere onitage ti mo pe wo fun mi","No ni lati wo ere onitage","Ba mi wa ere onitage","Wa fiimu kan fun mi", "Jowo se o le seduro fiimu kan", "mo nilo lati wo fiimu kan", "o dara", "odara", "beeni"],
+         "responses": ["So fun mi I.D. tabi fiimu ti o ti wo","So fun mi I.D. tabi fiimu wo ni o ti wo tele", "Kini oruko fiimu ti o feran tabi So fun mi I.D."],
+         "context":[""]
+        },
+        {"tag": "nye",
+         "patterns": ["Chota m film", "Chota m movie", "i nwere ike ikwado ihe nkiri biko", "i nwere ike ikwado movie biko", "achoro m ihu ihe nkiri", "achoro m ihu movie", "kwadoro ihe nkiri", "kwadoro movie","kwadoro film", "nye m ihe nkiri", "nye m movie", "nye m film", "kedu ka i ga esi mee ya", "ee"],
+         "responses": ["Gini bu I.D. gi ma o bu ihe nkiri na-amasi gi"],
+         "context":[""]
+        },
+    
+    
+    
+        {"tag": "short words",
+         "patterns": ["ok", "cool", "show me", "recommend", "how", "do it"],
+         "responses": ["Type in your user I.D. or Tell me a movie you have watched, and I will recommend movies", "what is the name of the movie you like?, I will recommend movies similar movies to it or type your user I.D."],
+         "context":[""]
+        },
+        {"tag": "kukuru oro",
+         "patterns": ["fihan mi", "se o", "daba movies","daba film", "daba fiimu", "jowo fun mi ni fiimu", "e fun mi movie", "e fun mi fiimu"],
+         "responses": ["Fun mi ni I.D. re, tabi loruko fiimu ti o feran"],
+         "context":[""]
+        },
+        {"tag": "short words",
+         "patterns": ["gosi m", "kedu ka i ga esi mee ya", "mee ya"],
+         "responses": ["Gini bu I.D. gi ma o bu ihe nkiri na-amasi gi"],
+         "context":[""]
+        },
+    
+    
+        {"tag": "Who are you",
+         "patterns": ["Who are you", "are you a chatbot?", "Are you a human being?", "What is your name?", "Tell me your name", "Introduce yourself", "tell me about yourself"],
+         "responses": ["I am a recommendation chatbot, My name is Covenant", "I am covenant, a chatbot that recommends movies", "I am a recommendation chatbot built in covenant university"],
+         "context":[""]
+        },
+        {"tag": "Tani e",
+         "patterns": ["Ta leleyi","Shey enyan ni abi Chatbot","Se chatbot ni e?","Tani iwo","Ta ni wo?","Se o je chatiboti ni?","se eniyan ni wo?","Tani e", "Se o je chatbot ni?", "Se o je eniyan?", "Ki 'ni oruko re", "So oruko re fun mi"],
+         "responses": ["Chatbot ni mi, oruko mi ni Covenant"],
+         "context":[""]
+        },
+        {"tag": "Onye ka i bu",
+         "patterns": ["Onye ka i bu", "i bu onye nkata", "I bu mmadu?", "Kedu aha gi?", "Gwa m aha gi?", "kooro m maka onwe gi"],
+         "responses": ["Abu m onye nkata, aha m bu Covenant", "Abu m Covenant, chatbot na-akwado ihe nkiri na film", "Amuru m na Covenant Univeristy, Abu m onye nkata"],
+         "context":[""]
+        },
+        
+    
+        {"tag": "Where are you from",
+         "patterns": ["Where are you from?", "Where were you born"],
+         "responses": ["I was built in covenant university"],
+         "context":[""]
+        },
+        {"tag": "Nibo ni o ti wa",
+         "patterns": ["Ibo loti wa","Ibo ni won ti bi e","Nibo loti wa","Nibo ni won ti ni le","Ibi ni won bi e si?","Ibo ni o ti wa?","Nibo ni o ti wa?", "Nibo ti won ti bi o?"],
+         "responses": ["Covenant University ni won bi mi"],
+         "context":[""]
+        },
+        {"tag": "Ebee ka i si",
+         "patterns": ["Ebee ka i si?", "Ebee ka amuru gị"],
+         "responses": ["Amuru m na Covenant University"],
+         "context":[""]
+        },
+    
+        
+        {"tag": "Good Morning",
+         "patterns": ["Good morning", "Morning"],
+         "responses": ["Good morning how may i help you?", "Morning to you, what can i do for you", "Good morning to you, how can i help you", "Looks like someone is having a good day, how can i help you"],
+         "context":[""]
+        },
+        {"tag": "E kaaro",
+         "patterns": ["Kaaro","E kaaro","Ekaro", "ekaaro", "owuro"],
+         "responses": ["E kaaro bawo ni mo se le ran yin lowo?"],
+         "context":[""]
+        },
+        {"tag": "ututu oma",
+         "patterns": ["ututu oma", "ututu"],
+         "responses": ["Ututu oma, kedu ka m ga-esi nyere gi aka?", "O di ka mmadu na-enwe omaricha ubochi, kedu ka m ga-esi nyere gi aka"],
+         "context":[""]
+        },
+    
+        
+        {"tag": "Good Afternoon",
+         "patterns": ["Good afternoon", "afternoon"],
+         "responses": ["Good afternoon how may i help you?", "Afternoon to you, what can i do for you", "Good afternoon to you, how can i help you", "Looks like someone is having a good day, how can i help you"],
+         "context":[""]
+        },
+        {"tag": "E kaasan",
+         "patterns": ["E kaasan", "osan", "ekaasan","ekasan","ojokanri"],
+         "responses": ["E kaasan, bawo ni mo se le ran yin lowo?"],
+         "context":[""]
+        },
+        {"tag": "Ehihie oma",
+         "patterns": ["Ehihie oma", "Ehihie"],
+         "responses": ["Ehihie oma, kedu ka m ga-esi nyere gi aka?", "O di ka mmadu na-enwe omaricha ubochi, kedu ka m ga-esi nyere gi aka"],
+         "context":[""]
+        },
+    
+    
+    
+        {"tag": "Good Evening",
+         "patterns": ["Good evening", "evening"],
+         "responses": ["Good evening how may i help you?", "evening to you, what can i do for you", "Good evening to you, how can i help you", "Looks like someone is having a good day, how can i help you"],
+         "context":[""]
+        },
+        {"tag": "Ka a ale",
+         "patterns": ["Ekale","Ka a ale", "Irole", "kale", "kaale"],
+         "responses": ["E ku asale bawo ni MO se le ran o lowo?"],
+         "context":[""]
+        },
+        {"tag": "Mgbede oma",
+         "patterns": ["Mgbede oma", "Mgbede", "mbede"],
+         "responses": ["Mgbede oma, kedu ka m ga-esi nyere gi aka?", "O di ka mmadu na-enwe omaricha ubochi, kedu ka m ga-esi nyere gi aka"],
+         "context":[""]
+        },
+    
+    
+        {"tag": "Kind of movies",
+         "patterns": ["what genres?","What kind of movies", "what type of movies", "What kind of films", "What type of films"],
+         "responses": ["I recommend all kinds of movies similar to any movie you input"],
+         "context":[""]
+        },
+        {"tag": "kini fiimu",
+         "patterns": ["Iru ere tage wo re","Iru ere idaraya wo ni yen","Iru fiimu wo", "ohun ti Iru movie", "Iru fiimu", "Iru awon fiimu"],
+         "responses": ["Mo seduro gbogbo iru awon fiimu ti o jora si eyikeyi fiimu ti o te sii"],
+         "context":[""]
+        },
+        {"tag": "kedu ihe nkiri",
+         "patterns": ["Kedu udi ihe nkiri"],
+         "responses": ["Ana m akwado udi ihe nkiri niile yiri ihe nkiri o bula i tinyere"],
+         "context":[""]
+        },
+     
+    
+        {"tag": "Negative",
+         "patterns": ["I hate you","You’re annoying", "I hate you", "You are stupid", "idiot", "fool","foolish", "Rubbish bot", "You are mad", "You are stupid", "You're foolish"],
+         "responses": ["I am sorry you feel this way, can i interest you in a movie to change your mind?, Type in your I.D or a movie you love", "I didnt mean to offend you, can i interest you in a movie to change your mind?, Type in your I.D or a movie you love"],
+         "context":[""]
+        },
+        {"tag": "buburu",
+         "patterns": ["O on bi mi nu","Oponu ode oshi","Mo korira e","Ode oponu","No korira e","O go","ode","Oponu","O'n munu bimi","o je didanubi", "Nko ni ife si o", "aimogbonwa", "omugo ni o", "isokuso", "olori buruku"],
+         "responses": ["Ma binu, je ki n fun o ni fiimu kan, kini id re tabi fiimu wo ni o nife"],
+         "context":[""]
+        },
+        {"tag": "adighi mma",
+         "patterns": ["i na-akpasu iwe", "i na-eme nzuzu", "akporo gi m asi", "onye nzuzu"],
+         "responses": ["ndo, enwere m ike inye gi ihe nkiri, gini bu id gi ma o bu ihe nkiri na-amasi gi"],
+         "context":[""]
+        }
+    
+   ]
+}
